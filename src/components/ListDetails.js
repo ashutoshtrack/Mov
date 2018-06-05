@@ -22,7 +22,7 @@ class ListDetails extends Component {
           />
         </CardSection>
         <CardSection>
-          <Custombutton onPressed={() => alert("hi")} />
+          <Custombutton onPressed={this.props.clicked} />
         </CardSection>
       </Card>
     );
